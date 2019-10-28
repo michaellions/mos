@@ -1,0 +1,69 @@
+[
+    {"name":"快速访问","id":"1","pid":"0","sysname":"","open":true,"icon":"core/img/icon/ksfw.png","icon1":"core/img/icon/ksfw.png","tip":"","tips":"","children":
+        [
+            { "name":"桌面","id":"11","pid":"1","sysname":"","qpath":{"0":{"id":"2","pid":"0"},"1":{"id":"26","pid":"2"}},"icon":"core/img/icon/zm.png","icon1":"core/img/icon/zm.png","tip":"","tips":"已固定&#10;路径:我的电脑","createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","type":"常用文件夹","filetype":"系统文件夹","children":
+                [
+                    {"name":"坦克大战","id":"111","pid":"11","sysname":"","exe":true,"exefunc":"mosparent.openUrl('tankgame','data/app/games/tank/tank.php','坦克大战',[['50%','483px'],['10%','25%']],'data/app/games/tank/images/menu.gif','more',[],'false','','')","path":"data/app/games/tank/tank.php","open":false,"icon":"data/app/games/tank/images/menu.gif","icon1":"data/app/games/tank/images/menu.gif","img":"core/img/icon/ff.png","tip":"","tips":"位置:Tank(C:/Program Files/MosApps/Games/Tank)","createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","filetype":"快捷方式","size":"2KB","isHidden":true}
+                ],"isParent":false
+            },
+            { "name":"下载","id":"12","pid":"1","sysname":"","qpath":{"0":{"id":"2","pid":"0"},"1":{"id":"24","pid":"2"}},"icon":"core/img/icon/xz.png","icon1":"core/img/icon/xz.png","tip":"","tips":"已固定&#10;路径:我的电脑","createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","type":"常用文件夹","filetype":"系统文件夹","children":[],"isParent":false},
+            { "name":"文档","id":"13","pid":"1","sysname":"","qpath":{"0":{"id":"2","pid":"0"},"1":{"id":"23","pid":"2"}},"icon":"core/img/icon/wd.png","icon1":"core/img/icon/wd.png","tip":"","tips":"已固定&#10;路径:我的电脑","createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","type":"常用文件夹","filetype":"系统文件夹","children":[],"isParent":false},
+            { "name":"图片","id":"14","pid":"1","sysname":"","qpath":{"0":{"id":"2","pid":"0"},"1":{"id":"22","pid":"2"}},"icon":"core/img/icon/tp.png","icon1":"core/img/icon/tp.png","tip":"","tips":"已固定&#10;路径:我的电脑","createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","type":"常用文件夹","filetype":"系统文件夹","children":[],"isParent":false}
+        ]
+    },
+    {"name":"我的电脑","id":"2","pid":"0","sysname":"","open":true,"icon":"core/img/icon/wdn.png","icon1":"core/img/icon/wdn.png","tip":"","tips":"","children":
+        [
+            { "name":"视频","id":"21","pid":"2","sysname":"","icon":"core/img/icon/sp.png","icon1":"core/img/icon/sp.png","tip":"","tips":"包含音乐和其他视频文件","createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","type":"文件夹","filetype":"系统文件夹","children":[]},
+            { "name":"图片","id":"22","pid":"2","sysname":"","icon":"core/img/icon/tp.png","icon1":"core/img/icon/tp.png","tip":"","tips":"包含数字照片、图片和图形文件","createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","type":"文件夹","filetype":"系统文件夹","children":[]},
+            { "name":"文档","id":"23","pid":"2","sysname":"","icon":"core/img/icon/wd.png","icon1":"core/img/icon/wd.png","tip":"","tips":"创建日期:2018/05/20 17:00","createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","filetype":"系统文件夹","children":[]},
+            { "name":"下载","id":"24","pid":"2","sysname":"","icon":"core/img/icon/xz.png","icon1":"core/img/icon/xz.png","tip":"","tips":"创建日期:2018/05/20 17:00","createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","type":"文件夹","filetype":"系统文件夹","children":[]},
+            { "name":"音乐","id":"25","pid":"2","sysname":"","icon":"core/img/icon/yy.png","icon1":"core/img/icon/yy.png","tip":"","tips":"包含音乐和其他音频文件","createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","type":"文件夹","filetype":"系统文件夹","children":[]},
+            { "name":"桌面","id":"26","pid":"2","sysname":"","icon":"core/img/icon/zm.png","icon1":"core/img/icon/zm.png","tip":"","tips":"创建日期:2018/05/20 17:00","createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","type":"文件夹","filetype":"系统文件夹","children":
+                [
+                    {"name":"坦克大战","id":"261","pid":"26","sysname":"","exe":true,"exefunc":"mosparent.openUrl('tankgame','data/app/games/tank/tank.php','坦克大战',[['50%','483px'],['10%','25%']],'data/app/games/tank/images/menu.gif','more',[],'false','','')","path":"data/app/games/tank/tank.php","open":false,"icon":"data/app/games/tank/images/menu.gif","icon1":"data/app/games/tank/images/menu.gif","img":"core/img/icon/ff.png","tip":"","tips":"位置:Tank(C:/Program Files/MosApps/Games/Tank)","createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","filetype":"快捷方式","size":"2KB","isHidden":true}
+                ]
+            },
+            { "name":"网络磁盘","id":"27","pid":"2","sysname":"(C:)","open":false,"icon":"core/img/icon/harddiskc.png","icon1":"core/img/icon/harddiskc.png","tip":"","tips":"系统磁盘","createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","type":"设备和驱动器","filetype":"系统文件夹","children":
+                [
+                    {"name":"Windows","id":"271","pid":"27","sysname":"","path":"core","open":false,"icon":"core/img/icon/wjj.png","icon1":"core/img/icon/wjjd.png","tip":"","tips":"系统文件夹","isParent":true,"createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","filetype":"文件夹","size":"","isHidden":false,"children":
+                        [
+                            {"name":"Web","id":"2711","pid":"271","sysname":"","path":"core/img","open":false,"icon":"core/img/icon/wjj.png","icon1":"core/img/icon/wjjd.png","tip":"","tips":"创建日期:2018/05/20 17:00","isParent":true,"createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","filetype":"文件夹","size":"","isHidden":false,"children":
+                                [
+                                    {"name":"Avatar","id":"27111","pid":"2711","sysname":"","path":"core/img/avatar","open":false,"icon":"core/img/icon/wjj.png","icon1":"core/img/icon/wjjd.png","tip":"","tips":"头像文件","isParent":true,"createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","filetype":"文件夹","size":"","isHidden":false,"children":[]
+                                    },
+                                    {"name":"Dynamic","id":"27112","pid":"2711","sysname":"","path":"core/img/dynamic","open":false,"icon":"core/img/icon/wjj.png","icon1":"core/img/icon/wjjd.png","tip":"","tips":"动态图片","isParent":true,"createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","filetype":"文件夹","size":"","isHidden":false,"children":[]
+                                    },
+                                    {"name":"Icon","id":"27113","pid":"2711","sysname":"","path":"core/img/icon","open":false,"icon":"core/img/icon/wjj.png","icon1":"core/img/icon/wjjd.png","tip":"","tips":"图标文件","isParent":true,"createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","filetype":"文件夹","size":"","isHidden":false,"children":[]
+                                    },
+                                    {"name":"Wallpapers","id":"27114","pid":"2711","sysname":"","path":"core/img/wallpapers","open":false,"icon":"core/img/icon/wjj.png","icon1":"core/img/icon/wjjd.png","tip":"","tips":"壁纸文件","isParent":true,"createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","filetype":"文件夹","size":"","isHidden":false,"children":[]
+                                    },
+                                    {"name":"windows","id":"27115","pid":"2711","extname":"ico","sysname":"","exe":false,"exefunc":"","path":"core/img/windows.ico","open":false,"icon":"core/img/icon/fileicon/ico.png","icon1":"core/img/icon/fileicon/ico.png","tip":"","tips":"类型:ICO文件&#10;大小:67KB&#10;创建日期:2018/05/20 17:00","createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","filetype":"ICO文件","size":"67KB","isHidden":true}
+                                ]
+                            },
+                            {"name":"System","id":"2712","pid":"271","sysname":"","path":"core/js","open":false,"icon":"core/img/icon/wjj.png","icon1":"core/img/icon/wjjd.png","tip":"","tips":"创建日期:2018/05/20 17:00","isParent":true,"createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","filetype":"文件夹","size":"","isHidden":false,"children":[]
+                            },
+                            {"name":"Fonts","id":"2713","pid":"271","sysname":"","path":"core/fonts","open":false,"icon":"core/img/icon/font.png","icon1":"core/img/icon/fonts.png","tip":"","tips":"系统用到的字体文件","isParent":true,"createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","filetype":"文件夹","size":"","isHidden":false,"children":[]
+                            }
+                        ]
+                    },
+                    {"name":"index","id":"272","pid":"27","extname":"php","sysname":"","exe":false,"exefunc":"","tip":"","tips":"类型:PHP文件&#10;大小:1KB&#10;创建日期:2018/05/20 17:00","open":false,"icon":"core/img/icon/fileicon/php.png","icon1":"core/img/icon/fileicon/php.png","isParent":false,"createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","filetype":"PHP文件","size":"1KB","isHidden":true,"children:":[]
+                    }
+                ]
+            },
+            { "name":"网络磁盘","id":"28","pid":"2","sysname":"(D:)","open":false,"icon":"core/img/icon/harddisk.png","tip":"","tips":"系统磁盘","createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","type":"设备和驱动器","filetype":"系统文件夹","children":
+                [
+                    {"name":"网络文件","id":"281","sysname":"","open":false,"icon":"core/img/icon/wjj.png","tip":"","tips":"","isParent":true,"createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","filetype":"文件夹","size":"","isHidden":false,"children":
+                        [
+                            {"name":"网","id":"2811","sysname":"","open":false,"icon":"core/img/icon/wjj.png","tip":"","tips":"","isParent":true,"createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","filetype":"文件夹","size":"","isHidden":false,"children":[]
+                            }
+                        ]
+                    },
+                    {"name":"网络文件","id":"282","extname":"ls","sysname":"","exe":false,"exefunc":"","tip":"","tips":"类型:ls文件&#10;大小:1.25KB&#10;创建日期:2018/05/20 17:00","open":false,"icon":"core/img/icon/network.png","isParent":false,"createdate":"2018/05/20 17:00","modifydate":"2018/05/20 17:00","accessdate":"2018/05/20 17:00","filetype":"ls文件","size":"1.25KB","isHidden":true,"children:":[]
+                    }
+                ]
+            }
+        ]
+    },
+    {"name":"网络","id":"3","pid":"0","sysname":"","open":false,"icon":"core/img/icon/wl.png","tip":"","tips":"","isParent":true,"children":[]},
+    {"name":"回收站","id":"4","pid":"0","sysname":"","open":false,"icon":"core/img/icon/recycle.png","tip":"","tips":"","isParent":true,"isHidden":true,"children":[]}
+]

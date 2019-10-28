@@ -1,0 +1,50 @@
+{"data":
+  [
+    {
+      "loginname": "admin",
+      "loginpassword": "4a7d1ed414474e4033ac29ccb8653d9b",
+      "nickname": "admin",
+      "familyname": "admin",
+      "lastname": "admin",
+      "group": "manage",
+      "groupname":"管理",
+      "role": "manage",
+      "rolename":"管理",
+      "address": "管理",
+      "TEL": "管理",
+      "Mobile": "管理",
+      "Email": "管理",
+      "Twitter": "管理",
+      "Skype": "管理",
+      "QQ": "管理",
+      "weibo": "管理",
+      "facebook": "管理",
+      "googleplus": "管理",
+      "avatar": "./core/img/avatar/avatar.png",
+      "memo": "管理"
+    },
+    {
+      "loginname": "michael",
+      "loginpassword":"4a7d1ed414474e4033ac29ccb8653d9b",
+      "nickname": "michael",
+      "familyname": "michael",
+      "lastname": "lions",
+      "group": "manage",
+      "groupname":"管理",
+      "role": "CEO",
+      "rolename":"CEO",
+      "address": "管理",
+      "TEL": "管理",
+      "Mobile": "管理",
+      "Email": "管理",
+      "Twitter": "管理",
+      "Skype": "管理",
+      "QQ": "管理",
+      "weibo": "管理",
+      "facebook": "管理",
+      "googleplus": "管理",
+      "avatar": "./core/img/avatar/avatar4.png",
+      "memo": "管理"
+    }
+  ]
+}

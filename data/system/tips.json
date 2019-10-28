@@ -1,0 +1,7 @@
+{"data":
+    [
+        {"obj":"#mos_btn_time","index":"time","tipstype":"func","tipscontent":"function(){var myDate = new Date(),year=myDate.getFullYear(),month=myDate.getMonth()+1,date=myDate.getDate(),day=myDate.getDay(),weekday=[\"星期日\",\"星期一\",\"星期二\",\"星期三\",\"星期四\",\"星期五\",\"星期六\"];return \"<span style='color:black;text-align:center;display:inline-block;'>\"+year+\"年\"+month+\"月\"+date+\"日<br>\"+weekday[day]+\"</span>\"}","tipsposition":"1"},
+        {"obj":"#mos_btn_show_desktop","index":"showdesktop","tipstype":"html","tipscontent":"<span style=\"color:black;\">显示桌面</span>","tipsposition":"1"},
+        {"obj":"#mos_btn_command","index":"messagecenter","tipstype":"html","tipscontent":"<span style=\"color:black;\">操作中心</span>","tipsposition":"1"}
+    ]
+}

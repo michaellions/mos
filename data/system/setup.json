@@ -1,0 +1,37 @@
+{
+    "system":
+    {
+        "img":"../core/img/icon/system.png","title":"系统","desc":"显示、通知、应用、电源","items":
+        [
+            {"id":"monitor","title":"显示","desc":"显示的相关设置","item":[],"html":"<span style=\"float:left;width:100%;height:24px;font-size:20px;font-weight:bold;margin:0 0 10px 0;color:black;\">自定义显示属性</span><div style=\"float:left;border:1px solid rgba(255,255,255,0);width:calc( 100% - 5px );height:200px;\"></div>"},
+            {"id":"app","title":"应用和功能","desc":"应用相关设置","item":[],"html":""},
+            {"id":"defaultapp","title":"默认应用","desc":"设置应用的默认打开方式","item":[],"html":""},
+            {"id":"messages","title":"通知和操作","desc":"通知相关设置","item":[],"html":""},
+            {"id":"power","title":"电源和睡眠","desc":"电源相关设置","item":[],"html":""}
+        ]
+    },
+    "devices":
+    {
+        "img":"../core/img/icon/device.png","title":"设备","desc":"打印机、鼠标、键盘","items":[]
+    },
+    "net":
+    {
+        "img":"../core/img/icon/net.png","title":"网络和Internet","desc":"Wi-Fi、飞行模式、VPN","items":[]
+    },
+    "personal":
+    {
+        "img":"../core/img/icon/personal.png","title":"个性化","desc":"背景、锁屏、颜色","items":
+        [
+            {"id":"background","title":"背景","desc":"桌面壁纸设置","item":[],"html":"<span class=\"setrtitle\">预览</span><div id=\"bgpreview\" class=\"setrbgpreview\"></div><span class=\"setrtext\">背景</span><div style=\"float:left;width:100%\"><select id=\"bgmodel\" style=\"width:240px;height:24px;\"><option value=\"pic\">图片</option><option value=\"pcolor\">纯色</option><option value=\"slide\">幻灯片</option></select></div><div id=\"setbgpic\" class=\"setbg\"><span class=\"setrtext\">选择图片</span><div id=\"picselect\" class=\"picselect\"></div><div style=\"float:left;width:100%;\"><button id=\"btn-viewpic\" class=\"mbtn\">浏览</button></div><span class=\"setrtext\">图片模式</span><div style=\"float:left;width:100%\"><select id=\"picmodel\" style=\"width:240px;height:24px;\"><option value=\"no-repeat\">拉伸</option><option value=\"repeat\">平铺</option><option value=\"center\">居中</option></div></select></div></div><div id=\"setbgcolor\" class=\"setbg sethidden\"><span class=\"setrtext\">背景色</span><div class=\"colorselect\"></div></div><div id=\"setbgslide\" class=\"setbg sethidden\"><span class=\"setrtext\">为幻灯片选择相册</span><div id=\"slideselect\" class=\"slideselect\"><div class=\"slideselectbox\"><dv id=\"smslide\" style=\"float:left;width:75px;height:30px;\"></div><span id=\"slidename\" style=\"font-size:14px;height:40px;line-height:40px;\">幻灯名称</span></div><div style=\"float:left;width:100%;\"><button id=\"btn-viewslide\" class=\"mbtn\">浏览</button></div><span class=\"setrtext\">图片变换频率</span><div style=\"float:left;width:100%\"><select id=\"slideint\" style=\"width:240px;height:24px;\"><option value=\"60000\">1分钟</option><option value=\"600000\">10分钟</option><option value=\"3600000\">1小时</option><option value=\"21600000\">6小时</option><option value=\"86400000\">1天</option></select></div></div></div>"},
+            {"id":"color","title":"颜色","desc":"窗口主题设置","item":{"colorindex":"1","colorpool":["#B113BE","#584DC4","#06103C","#1BCF01","#C86BC9","#26F3FF","#FFA750","#FF3125","#017EFF","#AF2FFF","#4B203D","#283C4B","#9E953E","#6532C8","#5089CA"]},"html":"<span class=\"setrtitle\">预览</span><div id=\"colorpreview\" class=\"setrcolorpreview\"></div><span class=\"setrtext\">外观颜色</span><div class=\"colorselect\"></div>"},
+            {"id":"lockscreen","title":"锁屏界面","desc":"锁屏设置","item":[],"html":""},
+            {"id":"theme","title":"主题","desc":"主题设置","item":[],"html":""},
+            {"id":"start","title":"开始","desc":"开始菜单设置","item":[],"html":""},
+            {"id":"taskbar","title":"任务栏","desc":"任务栏设置","item":[],"html":""}
+        ]
+    },
+    "user":
+    {
+        "img":"../core/img/icon/user.png","title":"用户","desc":"账户信息、权限管理","items":[]
+    }
+}

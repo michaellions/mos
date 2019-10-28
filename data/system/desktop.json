@@ -1,0 +1,44 @@
+{
+"shortcuts":[
+        {"id":"mycomputer","title":"我的电脑","iconurl":"./core/img/icon/computer.png","openurl":"","position":"[[\"90%\",\"85%\"],[\"4%\",\"5%\"]]","img":"./core/img/icon/computer.png"},
+        {"id":"network","title":"网络","iconurl":"./core/img/icon/network.png","openurl":"","position":"[[\"90%\",\"85%\"],[\"4%\",\"5%\"]]","img":"./core/img/icon/network.png"},
+        {"id":"recycle","title":"回收站","iconurl":"./core/img/icon/recycle.png","openurl":"","position":"[[\"90%\",\"85%\"],[\"4%\",\"5%\"]]","img":"./core/img/icon/recycle.png"}
+
+    ],
+"menuslide":[
+        {"slideclass":"item","clicktype":"","func":"","title":"<img class='icon blue' src='./core/img/icon/folder.png'/><span>API测试</span>"},
+        {"slideclass":"sub-item","clicktype":"function","func":"mos.openUrl('./child.html','子页')","title":"父子页沟通"},
+        {"slideclass":"sub-item","clicktype":"function","func":"mos.commandCenterOpen()","title":"打开消息中心"},
+        {"slideclass":"sub-item","clicktype":"function","func":"mos.menuClose()","title":"关闭菜单"},
+        {"slideclass":"item","clicktype":"","func":"","title":"<img class='icon blue' src='./core/img/icon/folder.png'/>辅助工具"},
+        {"slideclass":"sub-item","clicktype":"function","func":"mos.openUrl('win10i.yuri2.cn/src/tools/builder-shortcut.html','图标代码生成器')","title":"桌面图标代码生成器"},    
+        {"slideclass":"sub-item","clicktype":"function","func":"mos.openUrl('win10ui.yuri2.cn/src/tools/builder-tile.html','磁贴代码生成器')","title":"磁贴代码生成器"},
+        {"slideclass":"sub-item","clicktype":"function","func":"mos.openUrl('win10ui.yuri2.cn/src/tools/builder-menu.html','菜单代码生成器')","title":"菜单代码生成器"},
+        {"slideclass":"item","clicktype":"function","func":"mos.aboutUs()","title":"<i class=\"blue icon fa fa-info-circle fa-fw\"></i>关于"},
+        {"slideclass":"item","clicktype":"function","func":"mos.openUrl('./template/setup.php','设置',[['50%','75%'],['10%','25%']],'<img class=\\'icon\\' src=\\'./core/img/icon/setup.png\\'\/ >')","title":"<img class=\"icon blue\" src=\"./core/img/icon/setup.png\" />设置"},
+        {"slideclass":"item","clicktype":"function","func":"mos.exit()","title":"<i class=\"blue icon fa fa-power-off fa-fw\"></i>退出MOS"}
+    ],
+"blocks":[
+        {
+            "title":"应用示例","blocklist":[
+                {"loc":"1,1","size":"6,3","clickfunction":"","cover":"content red cover","coverstyle":"","covercontent":"<img width=\"264\" style=\"position: relative;top: -50px;\" src=\"./core/img/presentation/wangyiyun.gif\" />","detail":"content red detail","detailstyle":"","detailfunction":"","detailcontent":"<iframe style=\"margin:-3px 0 0 -4px\" frameborder=\"no\" border=\"0\" marginwidth=\"0\" marginheight=\"0\" width=275 height=129 src=\"//music.163.com/outchain/player?type=2&id=30612808&auto=0&height=80\"></iframe>"},
+                {"loc":"1,4","size":"4,4","clickfunction":"","cover":"content blue cover","coverstyle":"font-size: 30px;line-height: 176px;text-align: center","covercontent":"<i class=\"fa fa-cloud fa-fw\"></i> 天气","detail":"content detail","detailstyle":"background-color: rgb(46,147,217)","detailfunction":"","detailcontent":"<iframe src=\"//www.seniverse.com/weather/weather.aspx?uid=U43DF172E7&cid=CHBJ000000&l=&p=SMART&a=1&u=C&s=13&m=2&x=1&d=1&fc=&bgc=2E93D9&bc=&ti=0&in=0&li=\" frameborder=\"0\" scrolling=\"no\" width=\"200\" height=\"300\" allowTransparency=\"true\"></iframe>"},
+                {"loc":"5,4","size":"2,2","clickfunction":"","cover":"","coverstyle":"","covercontent":"","detail":"content","detailstyle":"","detailfunction":"","detailcontent":"<img style=\"display: inline-block;border-radius: 4px\" width=\"88px\" src=\"http://q2.qlogo.cn/headimg_dl?bs=824831811&dst_uin=824831811&src_uin=824831811&fid=824831811&spec=100&url_enc=0&referer=bu_interface&term_type=PC\"/>"},
+                {"loc":"5,6","size":"2,2","clickfunction":"mos_forgive_me()","cover":"","coverstyle":"","covercontent":"","detail":"content red","detailstyle":"","detailfunction":"","detailcontent":"<div style=\"text-align: center;font-size: 30px;line-height: 44px\"><i class=\"fa fa-bug fa-fw\"></i></div><div style=\"text-align: center;font-size: 16px;line-height: 44px\">别点我</div>"},
+                {"loc":"1,8","size":"6,3","clickfunction":"","cover":"","coverstyle":"","covercontent":"","detail":"content","detailstyle":"background-color: orangered","detailfunction":"","detailcontent":"<div class=\"mos-block-content-text\" style=\"font-size: 26px;line-height: 88px\">mos-UI</div><div class=\"mos-block-content-text\">显示信息</div>"}
+            ]
+        },
+        {
+            "title":"常用场景","blocklist":[
+                {"loc":"1,1","size":"4,3","clickfunction":"","cover":"","coverstyle":"","covercontent":"","detail":"content","detailstyle":"background-color: orangered","detailfunction":"","detailcontent":"<div class=\"mos-block-content-text\" style=\"font-size: 26px;line-height: 88px\">mos-UI</div><div class=\"mos-block-content-text\">显示信息</div>"},
+                {"loc":"5,1","size":"2,1","clickfunction":"","cover":"","coverstyle":"","covercontent":"","detail":"content","detailstyle":"background-color: green","detailfunction":"","detailcontent":"<div  class=\"mos-block-content-text\">文字按钮</div>"},
+                {"loc":"5,2","size":"2,2","clickfunction":"","cover":"","coverstyle":"","covercontent":"","detail":"content","detailstyle":"background-color: green","detailfunction":"","detailcontent":"<img style=\"width: 40px;height: 40px;margin: 5px auto;display: block\" src=\"./core/img/icon/baidu.png\"><div class=\"mos-block-content-text\">图标按钮</div>"},
+                {"loc":"1,4","size":"6,3","clickfunction":"","cover":"","coverstyle":"","covercontent":"","detail":"content","detailstyle":"background: url('./core/img/presentation/1.png');background-size: auto","detailfunction":"","detailcontent":"<div style=\"line-height:132px;text-align: center;\">显示图片</div>"},
+                {"loc":"1,7","size":"3,1","clickfunction":"","cover":"","coverstyle":"","covercontent":"","detail":"content","detailstyle":"background-color: 'grey'","detailfunction":"mos.openUrl('//www.baidu.com')","detailcontent":"<div class=\"mos-block-content-text\">内部链接</div>"},
+                {"loc":"4,7","size":"3,1","clickfunction":"","cover":"","coverstyle":"","covercontent":"","detail":"content","detailstyle":"background-color: 'blue'","detailfunction":"window.open('https://www.baidu.com')","detailcontent":"<div class=\"mos-block-content-text\">外部链接</div>"}
+            ]
+        }   
+    ],
+"wallpapers":{"autotoggle":true,"wallpaper":{"pc":"./core/img/wallpapers/main.jpg","mobile":"./core/img/wallpapers/mobile.jpg"},"autotime":"600000","imgurl":"../img/wallpapers"}
+    
+}
